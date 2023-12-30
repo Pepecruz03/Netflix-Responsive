@@ -299,14 +299,40 @@ footer{
     .menu-burguer{
         display: none;
     }
+
+    .peliculas{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        width: 100%;
+        justify-items: center;
+    
+    }
     
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .peliculas{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 30px;
+        width: 100%;
+        justify-items: center;
+        padding: 30px 0px 30px 0px;
+    }
 
+    .menu{
+        cursor: pointer;
+        padding: 0px 0px 0px 80px;
+    }
+
+    .segunda-nav{
+        padding: 0px 0px 0px 100px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    
 }
