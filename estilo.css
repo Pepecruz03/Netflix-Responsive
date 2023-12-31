@@ -11,20 +11,26 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .barra {
-      display: none;
+    .menu .barra {
+        display: none;
+
+     }
+
+    #checked:checked ~ ul{
+      display: block;
       flex-direction: column;
       width: 50%;
       text-align: center;
       position: absolute;
       top: 70px;
-      left: 0;
+      left: 40px;
       background-color: #333;
     }
 
-    #checked:checked ~ ul{
-        display: none;
+    .barra li {
+        padding-top: 10px;
     }
+
     .menu-burguer{
         display: block;
     }
@@ -85,7 +91,7 @@ align-items: center;
     margin-top: -70px;
     width: 100%;
     height: 100vh;
-    background: url(./recursos/poster\ horizontal.jpg);
+    background: url(./recursos/coche-carreras-numero-24-espalda_900958-8186.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
