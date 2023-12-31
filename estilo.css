@@ -124,6 +124,7 @@ align-items: center;
 }
 
 footer{
+padding: 10px 0px 0px 20px;
 display: flex;
 flex-direction: column;
 }
